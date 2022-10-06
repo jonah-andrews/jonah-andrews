@@ -115,8 +115,8 @@ a:hover {
     
     .project {
         max-width: 47.25%;
-        padding: 10px;
-        padding: 20px 10px;
+        /*padding: 10px;
+        padding: 20px 10px;*/
         background: yellow;
         margin: 10px;
         border-radius: 7px;
