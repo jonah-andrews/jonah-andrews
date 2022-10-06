@@ -40,6 +40,13 @@ a:hover {
     text-align: center;
   }
 
+  .bottomNH {
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.2vw;
+  }
+
   header {  
     background-color: rgb(255, 255, 0);  
     position: absolute; 
