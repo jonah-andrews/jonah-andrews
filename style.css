@@ -28,14 +28,14 @@ a:hover {
 
 .bottom {
     position:fixed;
-    left: 0;
+    left: 35vw;
     bottom: 0;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     letter-spacing: 1px;
-    line-height: 0.2px;
+    line-height: 0.2vw;
     font-size: 1vw;
-    /*background-color: red;*/
+    background-color: rgb(149, 21, 21);
     color: white;
     text-align: center;
   }
