@@ -31,8 +31,10 @@ a:hover {
     left: 0;
     bottom: 0;
     width: 100%;
+    height: auto;
     letter-spacing: 1px;
     line-height: 0.2px;
+    font-size: 1vw;
     /*background-color: red;*/
     color: white;
     text-align: center;
