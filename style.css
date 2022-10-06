@@ -16,19 +16,6 @@ body {
 }
 
 
-.assignment img{
-    width:200px;
-    border: 4px solid #0a968fab;
-    margin: 10px;
-    display: block;
-    margin: auto;
-    
-}
-
-.assignment img:hover{
-    border: 4px dashed #030592ab;
-}
-
 a {
     text-decoration: none;
     color: rgb(148, 121, 247);
@@ -112,72 +99,6 @@ a:hover {
         font-size: smaller;
     }
 
-    .stories {
-        display: flex;
-        flex-wrap: wrap;
-        /*padding-left: 30px;
-        padding-right: 15px;*/
-    }
-    
-    .story {
-        max-width: 22.25%;
-        padding: 10px;
-        padding: 20px 10px;
-        background: yellow;
-        margin: 10px;
-        border-radius: 7px;
-    }
-    
-    .story img{
-        max-width:200px;
-        height: 134px;/*may be removed if images act up*/
-        border: 4px solid #0a968fab;
-        margin: 10px;
-        display: block;
-        margin: auto;
-        
-    }
-    
-    .story img:hover{
-        border: 4px dashed #030592ab;
-    }
-
-    .story h2 {
-        text-align: center;
-    }
-
-    .entries {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .entry {
-        max-width: 100%;
-        padding: 10px;
-        padding: 20px 10px;
-        background: yellow;
-        margin: 10px;
-        border-radius: 7px;
-    }
-
-    .entry img{
-        max-width:200px;
-        height: 134px;/*may be removed if images act up*/
-        border: 4px solid #0a968fab;
-        margin: 10px;
-        display: block;
-        margin: auto;
-        
-    }
-    
-    .entry img:hover{
-        border: 4px dashed #030592ab;
-    }
-
-    .entry h2 {
-        text-align: center;
-    }
-
     .projects {
         display: flex;
         flex-wrap: wrap;
@@ -194,7 +115,7 @@ a:hover {
 
     .project img{
         max-width: 22.5%;
-        height: 66%;/*may be removed if images act up*/
+        height: auto;
         border: 4px solid #0a968fab;
         margin: 10px;
         display:flexbox;
