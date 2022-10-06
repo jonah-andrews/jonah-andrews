@@ -1,0 +1,220 @@
+body {
+    background-color: rgb(149, 21, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/siteLogo01.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-position: center;
+    background-position-y: 100px;
+}
+
+.title {
+    color:rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+
+.assignment img{
+    width:200px;
+    border: 4px solid #0a968fab;
+    margin: 10px;
+    display: block;
+    margin: auto;
+    
+}
+
+.assignment img:hover{
+    border: 4px dashed #030592ab;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(148, 121, 247);
+    /*color: purple;*/
+}
+
+a:hover {
+    color: violet;
+}
+
+.bottom {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 0.2px;
+    /*background-color: red;*/
+    color: white;
+    text-align: center;
+  }
+
+  header {  
+    background-color: rgb(255, 255, 0);  
+    position: absolute; 
+    left: 0;  
+    right: 0;  
+    top: 70px;  
+    height: 30px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 5px 0 black; 
+    }  
+
+    header * {  
+    display: inline;
+    }  
+
+    header li {  
+    margin: 20px; 
+    }  
+
+    header li a {  
+    color: blue;  
+    text-decoration: none;
+    }  
+
+    .start_index {
+        margin-top: 70px;
+    }
+
+    .news_box {
+        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 88px;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        border: 10px red;
+        margin-top: 70px;
+        background-color: white;
+        border-radius: 7px;
+    }
+
+    .projects_box {
+        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 128px;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        border: 10px red;
+        margin-top: 70px;
+        background-color: white;
+        border-radius: 7px;
+    }
+
+    .smaller_text {
+        font-size: smaller;
+    }
+
+    .stories {
+        display: flex;
+        flex-wrap: wrap;
+        /*padding-left: 30px;
+        padding-right: 15px;*/
+    }
+    
+    .story {
+        max-width: 22.25%;
+        padding: 10px;
+        padding: 20px 10px;
+        background: yellow;
+        margin: 10px;
+        border-radius: 7px;
+    }
+    
+    .story img{
+        max-width:200px;
+        height: 134px;/*may be removed if images act up*/
+        border: 4px solid #0a968fab;
+        margin: 10px;
+        display: block;
+        margin: auto;
+        
+    }
+    
+    .story img:hover{
+        border: 4px dashed #030592ab;
+    }
+
+    .story h2 {
+        text-align: center;
+    }
+
+    .entries {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .entry {
+        max-width: 100%;
+        padding: 10px;
+        padding: 20px 10px;
+        background: yellow;
+        margin: 10px;
+        border-radius: 7px;
+    }
+
+    .entry img{
+        max-width:200px;
+        height: 134px;/*may be removed if images act up*/
+        border: 4px solid #0a968fab;
+        margin: 10px;
+        display: block;
+        margin: auto;
+        
+    }
+    
+    .entry img:hover{
+        border: 4px dashed #030592ab;
+    }
+
+    .entry h2 {
+        text-align: center;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .project {
+        max-width: 47.25%;
+        padding: 10px;
+        padding: 20px 10px;
+        background: yellow;
+        margin: 10px;
+        border-radius: 7px;
+    }
+
+    .project img{
+        max-width: 22.5%;
+        height: 66%;/*may be removed if images act up*/
+        border: 4px solid #0a968fab;
+        margin: 10px;
+        display:flexbox;
+        margin: auto;
+        margin-left: 14%;
+        margin-right: 9%;
+        
+    }
+    
+    .project img:hover{
+        border: 4px dashed #030592ab;
+    }
+
+    .project h2 {
+        text-align: center;
+    }
+
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 3.33%;
+    }
